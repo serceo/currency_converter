@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       create: (context) => CurrencyBloc()..add(InitializeCurrency()),
       child: MaterialApp(
         title: 'Safolio Currency Converter',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
           useMaterial3: true,
